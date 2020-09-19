@@ -1,0 +1,6 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+button {
+  align-items: center;
+  justify-content: center;
+}

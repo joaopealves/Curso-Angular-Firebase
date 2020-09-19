@@ -8,10 +8,11 @@ describe('Pagina1Component', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Pagina1Component ]
-    })
-    .compileComponents();
+      declarations: [Pagina1Component],
+    }).compileComponents();
   });
+
+  console.log('teste');
 
   beforeEach(() => {
     fixture = TestBed.createComponent(Pagina1Component);
