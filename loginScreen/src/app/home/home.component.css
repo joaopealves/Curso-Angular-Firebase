@@ -1,0 +1,41 @@
+.nome {
+  background-color: rgb(15, 110, 15);
+  color: white;
+  font-family: "Jetbrains Mono";
+  border: 1px solid grey;
+  width: 400px;
+  height: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+.E-mail {
+  background-color: rgb(6, 6, 126);
+  color: white;
+  font-family: "Jetbrains Mono";
+  border: 1px solid grey;
+  width: 400px;
+  height: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 8px;
+}
+
+.button {
+  margin-top: 20px;
+  margin-left: 200px;
+  border: none;
+  background-color: rgb(235, 68, 68);
+  color: white;
+  width: 90px;
+  height: 40px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: rgb(179, 39, 39);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
