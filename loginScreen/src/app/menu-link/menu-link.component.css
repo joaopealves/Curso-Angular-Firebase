@@ -1,0 +1,83 @@
+#learnJs {
+  color: rgb(252, 235, 4);
+  transition: 0.5s;
+}
+
+#learnJs:hover {
+  background: rgb(255, 208, 0);
+  color: rgb(0, 0, 0);
+}
+
+#learnTs {
+  color: rgb(5, 160, 231);
+  transition: 0.5s;
+}
+
+#learnTs:hover {
+  background: rgb(5, 160, 231);
+  color: white;
+}
+#learnTsx {
+  color: rgb(5, 223, 231);
+  transition: 0.5s;
+}
+
+#learnTsx:hover {
+  background: rgb(73, 73, 73);
+  color: rgb(5, 223, 231);
+}
+
+#learnAngular {
+  color: rgb(231, 4, 4);
+  transition: 0.5s;
+}
+
+#learnAngular:hover {
+  background: rgb(231, 4, 4);
+  color: rgb(255, 255, 255);
+}
+
+#learnNode {
+  color: rgb(14, 212, 14);
+  transition: 0.5s;
+}
+
+#learnNode:hover {
+  color: rgb(14, 212, 14);
+  background: rgb(73, 73, 73);
+}
+.form-inline {
+  justify-content: space-between;
+}
+.login {
+  border: 1px solid rgb(14, 196, 14);
+  border-radius: 8px;
+  margin-right: 20px;
+  font: 700 0.8rem "JetBrains Mono";
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  color: rgb(14, 196, 14);
+  transition: 0.5s;
+}
+
+.login:hover {
+  background-color: rgb(14, 196, 14);
+  color: white;
+}
+
+.register {
+  border: 1px solid rgb(81, 83, 238);
+  border-radius: 8px;
+  margin-right: 20px;
+  font: 700 0.8rem "JetBrains Mono";
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  color: rgb(81, 83, 238);
+  transition: 0.5s;
+}
+.register:hover {
+  background-color: rgb(81, 83, 238);
+  color: white;
+}

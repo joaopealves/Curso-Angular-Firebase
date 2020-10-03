@@ -9,7 +9,13 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(
+    mostrarNome: boolean = true; 
+  
+    trocar(){
+       this.mostrarNome = !this.mostrarNome;
+    }
+  ): void {
   }
 
 }

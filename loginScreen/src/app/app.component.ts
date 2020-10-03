@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'loginScreen';
-  text = 'Bora lá de Angular';
 }

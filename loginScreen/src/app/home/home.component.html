@@ -1,1 +1,3 @@
-<p>home works!</p>
+<div *ngIf="this.mostrarNome" class="box">Nome: Pebinha da Silva</div>
+<div *ngIf="!this.mostrarNome" class="box">Email: pebinha@ygmail.com</div>
+<button (click)="this.trocar()">Alternar</button>
