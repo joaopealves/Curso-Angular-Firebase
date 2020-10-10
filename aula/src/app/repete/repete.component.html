@@ -1,0 +1,6 @@
+<h1>NGFOR</h1>
+
+<div class="number" *ngFor="let n of numeros">
+  <div class="impar" *ngIf="n % 2 != 0">{{ n }}</div>
+  <div class="par" *ngIf="n % 2 == 0">{{ n }}</div>
+</div>

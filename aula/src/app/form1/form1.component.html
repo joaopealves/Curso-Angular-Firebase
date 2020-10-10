@@ -1,0 +1,18 @@
+<div class="container mt-5">
+  <h1>Calcular Juros</h1>
+  <form #calculoForm="ngForm" (ngSubmit)="setValor(calculoForm)">
+    <div class="form-group">
+      <input
+        class="form-control"
+        type="text"
+        name="valor"
+        ngModel="valor"
+        (focus)="verifica = false"
+      />
+    </div>
+    <button type="submit" class="btn btn-primary">Calcular</button>
+  </form>
+  <div class="alert alert-danger" role="alert" *ngIf="verifica">
+    Valor da venda com desconto R$ {{ resposta }}
+  </div>
+</div>

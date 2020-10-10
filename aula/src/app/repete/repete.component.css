@@ -1,0 +1,21 @@
+.impar {
+  color: rgb(236, 236, 236);
+  background-color: rgb(160, 20, 20);
+  width: 40px;
+  height: 40px;
+}
+.par {
+  color: rgb(250, 250, 250);
+
+  background-color: rgb(42, 155, 7);
+  width: 40px;
+  height: 40px;
+}
+
+.number {
+  font: 700 1rem "Jetbrains Mono";
+  margin-left: 20px;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: center;
+}
