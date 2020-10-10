@@ -11,8 +11,13 @@ export class Form1Component implements OnInit {
   resposta: any;
   verifica = false;
   setValor(form: NgForm) {
-    console.log('calculando form.value.valor');
-    this.resposta = form.value.valor - form.value.valor * 0.05;
+    const valorInput = form.value.valor;
+
+    if (valorInput >= 5000) {
+      this.resposta = valorInput - valorInput * 0.1;
+    } else {
+      this.resposta = valorInput - valorInput * 0.05;
+    }
     this.verifica = true;
   }
 
